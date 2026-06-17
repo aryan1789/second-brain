@@ -7,6 +7,7 @@ Master catalog of all wiki pages. Updated as new pages are created.
 ### Concepts
 Pages on timeless topics, patterns, and ideas.
 
+- [[ML/DL Concept Reading Order]] — Suggested reading path through all 58 concept pages, phase by phase
 - [[Claude Prompting Guide]] — Effective communication strategies with Claude
 - [[Recurring Prompting Patterns from Your Chats]] — Analysis of common mistakes and improvements
 - [[Transfer Learning and YOLO for Classification]] — Deep learning architecture patterns
