@@ -1,0 +1,37 @@
+# ── Private wiki pages ────────────────────────────────────────────────────────
+# Radar emulator: client/employer work, not for public sharing
+wiki/projects/radar-emulator.md
+# Final Year Project: contains teammates' names, supervisor directives, FYP IP
+wiki/projects/emg-fatigue-monitoring-fyp.md
+wiki/concepts/emg-signal-processing.md
+
+# ── Raw source material ────────────────────────────────────────────────────────
+# Excluded for three reasons:
+#   1. Lecture PDFs/PPTXs are AUT copyright material
+#   2. Teams chat contains classmates' private messages
+#   3. Claude/ChatGPT exports contain personal data (CV, job apps, visa, medical)
+raw/
+
+# ── Obsidian ───────────────────────────────────────────────────────────────────
+# workspace.json tracks which files are open and pane layout — changes on every
+# Obsidian launch, creates meaningless noisy diffs
+.obsidian/workspace.json
+
+# ── Claude Code / tool runtime files ──────────────────────────────────────────
+.firecrawl/
+.gstack/
+browse-audit.jsonl
+browse-network.log
+claude-available.json
+terminal-agent-pid
+terminal-internal-token
+terminal-port
+
+# ── Obsidian temp/untitled files ──────────────────────────────────────────────
+Untitled.base
+Untitled.canvas
+
+# ── OS junk ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
