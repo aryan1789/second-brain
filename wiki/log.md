@@ -577,4 +577,43 @@ New course note:
 
 ---
 
+### 24-06-2026
+
+**Course Day Processed: Kaggle x Google 5-Day AI Agents — Day 3 (Agent Skills)**
+
+*Source:* https://www.kaggle.com/whitepaper-agent-skills — whitepaper "Agent Skills" (Tanvi Singhal, Gabriela Hernandez Larios, Debanshu Das, Lavi Nigam, Smitha Kolan — May 2026, 62 pages). PDF embedded via Google Drive (auth-gated); content retrieved via firecrawl page scrape (intro + table of contents) supplemented with firecrawl search from the ExplainX deep-dive (https://explainx.ai/blog/kaggle-agent-skills-whitepaper-guide-2026) and SkillsBench paper (https://arxiv.org/abs/2602.12670).
+
+**New Pages:**
+- [Day 3 - Agent Skills](courses/KAGGLE-VIBE-CODING/Day-3/index.md) — light summary covering the four friction points Skills solve (context rot, procedural memory, multi-agent overload, portability), skill anatomy (SKILL.md + progressive disclosure L1/L2/L3), token economics (50 skills as prompt = 15K tokens vs ~6K as skills), Skills vs MCP vs AGENTS.md mental model, two build paths (Translate / Crystallize), Evaluation-Driven Development, SkillsBench data (19% of tasks worse with a skill), the Read/Draft/Act safety ladder, pass^k metric, production infrastructure breakdown (98.4% harness, 1.6% agent loop), meta-skills, DAG composition, and public skill trust hierarchy
+- [[Agent Skills]] — concept page; core idea, skill anatomy + progressive disclosure, token economics, Skills vs MCP vs AGENTS.md comparison, two build paths, EDD eval cases, Read/Draft/Act safety ladder, common pitfalls (context rot in isolation testing, meta-skills on empty library, ALWAYS DO X anti-pattern), related concepts
+
+**Pages Updated:**
+- wiki/courses/KAGGLE-VIBE-CODING/index.md — marked Day 3 done
+- wiki/index.md — added Agent Skills concept page, updated course entry (Days 1-3 done)
+
+**Mode:** Light summary for the day note (matching Day 1 and Day 2 precedent). Created concept page for Agent Skills as a genuinely new primitive not yet in the wiki — expected to recur in Days 4-5 and in future harness design decisions.
+
+---
+
+### 26-06-2026
+
+**New Concept Page: Git Command Reference**
+
+*Source:* raw/articles/git-everything-you-need-to-know.md (Aryan's braindump after watching https://www.youtube.com/watch?v=K6Q31YkorUE)
+
+**New Raw Source:**
+- `raw/articles/git-everything-you-need-to-know.md` — braindump captured verbatim, source-summary type, linked to the YouTube walkthrough
+
+**New Concept Page:**
+- [[Git Command Reference]] — copy-paste cheat sheet for the everyday git workflow: one-time setup, the add/status/commit/log loop, remotes (`-u` upstream), branching, merging via PR, pulling, undoing (revert vs. reset --hard + force push), and stashing across branches
+
+**Correction made during processing:** Clarified `git revert <hash>` — it undoes a commit by creating a *new* commit (history preserved), rather than "reverting to the one before." Distinguished it from the destructive `git reset --hard`.
+
+**Pages Updated:**
+- `wiki/index.md` — added Git Command Reference under Concepts, bumped Last Updated to 26-06-2026
+
+**Additions folded in (per Aryan):** `git config user.name`/`user.email` (with an authorship-vs-authentication explanation), `.gitignore`, `git clone`, `git diff`, local `git merge`, `--force-with-lease`, and a `main` vs `master` note.
+
+---
+
 **Next Entry:** [Date] — [Change Type] — [Page] — [Summary]
